@@ -1,32 +1,24 @@
 ---
 layout: page
 title: About
-description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+description: 温故而知新, 可以为师矣
+keywords: mytime66
 comments: true
 menu: 关于
 permalink: /about/
 ---
-
-我是马壮，码而生，码而立。
-
-仰慕「优雅编码的艺术」。
 
 坚信熟能生巧，努力改变人生。
 
 ## 联系
 
 {% for website in site.data.social %}
+
 * {{ website.sitename }}：[@{{ website.name }}]({{ website.url }})
 {% endfor %}
 
-## Skill Keywords
+## 感谢
 
-{% for category in site.data.skills %}
-### {{ category.name }}
-<div class="btn-inline">
-{% for keyword in category.keywords %}
-<button class="btn btn-outline" type="button">{{ keyword }}</button>
-{% endfor %}
-</div>
-{% endfor %}
+本博客copy自下面链接，感谢大佬的工作！
+
+**若您想使用这个博客主题，请访问：https://github.com/mzlogin/mzlogin.github.io**
